@@ -5,6 +5,7 @@ kubectl get pods --all-namespaces
 dokcer images
 docker ps
 watch kubectl get pods --all-namespaces
+kubectl logs pod_name -n kube-system
 
 
 ## WORKER NODES
